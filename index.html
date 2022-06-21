@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+    <title>Easy Bank</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <!-- <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container">
+        <div class="pt-2">
+          <img src="easybank-landing-page-master/images/logo.svg" alt="" />
+        </div>
+        <div class="row align-items-start">
+          <div class="col text-secondary">Home</div>
+          <div class="col text-secondary">About</div>
+          <div class="col text-secondary">Contact</div>
+          <div class="col text-secondary">Blog</div>
+          <div class="col text-secondary">Careers</div>
+        </div>
+        <button type="button" class="btn btn-primary">Request Invite</button>
+
+        <div class="hidden md:flex-row">
+          <img
+            src="/easybank-landing-page-master/images/icon-hamburger.svg"
+            alt=""
+          />
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg bg-light navbar-dark fixed-top">
+      <div class="container">
+        <img src="/easybank-landing-page-master/images/logo.svg" alt="" />
+
+        <button
+          class="navbar-toggler bg-dark"
+          id="menubtn"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navmenu"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link text-secondary">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#questions" class="nav-link text-secondary">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link text-secondary">Contact</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link text-secondary">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link text-secondary">Careers</a>
+            </li>
+          </ul>
+        </div>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navmenu"
+        >
+          <button type="button" class="btn btn-success">Request Invite</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section id="hero" class="p-5">
+      <div class="container">
+        <div class="row md:flex-row">
+          <div class="col p-5">
+            <h1 class="mt-5 fs-1">Next generation <br />digital banking</h1>
+
+            <p class="fs-6 text-muted">
+              Take your financial life online.Your Easybank account <br />
+              will be a one-stop-shop for spending,saving <br />
+              budgeting,investing and much more.
+            </p>
+            <button type="button" class="btn btn-success">
+              Request Invite
+            </button>
+          </div>
+
+          <div class="col-md-5 pt-3">
+            <img
+              src="/easybank-landing-page-master/images/image-mockups.png"
+              alt=""
+              class="mt-0"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5 bg-light d-flex md:flex-row">
+      <div class="container">
+        <h1 class="mt-5 fs-1">Why choose Easybank?</h1>
+        <p class="fs-6 text-muted">
+          We leverage Open Banking to turn your bank account into your financial
+          hub. <br />
+          control your finances like never before.
+        </p>
+
+        <div class="p-5 row align-items-start">
+          <div class="col">
+            <img
+              src="/easybank-landing-page-master/images/icon-online.svg"
+              alt=""
+            />
+            <h1 class="fs-2 mt-5">Online Banking</h1>
+            <p class="fs-6 text-muted">
+              Our modern web and mobile <br />
+              Application allows you to keep <br />
+              track your finances wherever you <br />
+              are in the world.
+            </p>
+          </div>
+
+          <div class="col">
+            <img
+              src="/easybank-landing-page-master/images/icon-budgeting.svg"
+              alt=""
+            />
+            <h1 class="fs-2 mt-5">Simple Bugeting</h1>
+            <p class="fs-6 text-muted">
+              See exactly where your money <br />
+              goes each month.Recieve <br />
+              notifications when you are close to <br />
+              hitting your limits.
+            </p>
+          </div>
+
+          <div class="col">
+            <img
+              src="/easybank-landing-page-master/images/icon-onboarding.svg"
+              alt=""
+            />
+            <h1 class="fs-2 mt-5">Fast Onboard</h1>
+            <p class="fs-6 text-muted">
+              We don't do branches.Open your <br />
+              account in minutes online and start <br />
+              taking control of your finances <br />
+              right away.
+            </p>
+          </div>
+
+          <div class="col">
+            <img
+              src="/easybank-landing-page-master/images/icon-api.svg"
+              alt=""
+            />
+            <h1 class="fs-2 mt-5">Open API</h1>
+            <p class="fs-6 text-muted">
+              Manage your savings,investiments <br />
+              pension and much more from one <br />
+              account.Tracking your money has <br />
+              never been easier.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cards" class="pb-5 d-flex md:flex">
+      <div class="container">
+        <h1 class="p-5 fs-1">Latest Articles</h1>
+
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img
+                src="/easybank-landing-page-master/images/image-currency.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body pb-4">
+                <h5 class="card-title">
+                  Recieve money in any <br />
+                  currency with no fees
+                </h5>
+                <p class="card-text fs-6 text-secondary">
+                  The world is getting smaller and we're becoming more mobile.So
+                  why should you be focused to only recoeve money in a single...
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img
+                src="/easybank-landing-page-master/images/image-restaurant.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body pb-5">
+                <h5 class="card-title">
+                  Treat yourself without <br />
+                  worrying about money
+                </h5>
+                <p class="card-text fs-6 text-secondary">
+                  Our simple budgeting feature allows you to seperate out your
+                  spending and set realistic limits easch month.That means
+                  you.....
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img
+                src="/easybank-landing-page-master/images/image-plane.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body pb-5">
+                <h5 class="card-title">
+                  Take your Easybank card <br />
+                  whenever you go
+                </h5>
+                <p class="card-text fs-6 text-secondary">
+                  We want you to enjoy our travels <br />
+                  This is why we don't change any fees on purchases while you
+                  are abroad. We'll even show you....
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img
+                src="/easybank-landing-page-master/images/image-confetti.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body pb-5">
+                <h5 class="card-title">
+                  Our invite-only Beta <br />
+                  accounts are now live!
+                </h5>
+                <p class="card-text fs-6 text-secondary">
+                  After a lot of hardwork by the whole team,we're excited to
+                  launch our closed beta.It's easy to request an invite through
+                  the site....
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 text-white bg-secondary position-relative">
+      <div class="container">
+        <div class="pt-1">
+          <img src="/easybank-landing-page-master/images/logo.svg" alt="" />
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="pt-5">
+              <img
+                src="/easybank-landing-page-master/images/icon-facebook.svg"
+                class="p-1"
+                alt=""
+              />
+              <img
+                src="/easybank-landing-page-master/images/icon-youtube.svg"
+                class="p-1"
+                alt=""
+              />
+              <img
+                src="/easybank-landing-page-master/images/icon-twitter.svg"
+                class="p-1"
+                alt=""
+              />
+              <img
+                src="/easybank-landing-page-master/images/icon-pinterest.svg"
+                class="p-1"
+                alt=""
+              />
+              <img
+                src="/easybank-landing-page-master/images/icon-instagram.svg"
+                class="p-1"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <p class="text-dark">About Us</p>
+            <p class="text-dark">Contact</p>
+            <p class="text-dark">Blog</p>
+          </div>
+
+          <div class="col">
+            <p class="text-dark">Careers</p>
+            <p class="text-dark">Support</p>
+            <p class="text-dark">Privacy Policy</p>
+          </div>
+
+          <div class="col">
+            <button type="button" class="btn btn-success">
+              Request Invite
+            </button>
+            <br />
+            <br />
+            <p class="text-dark">&copy;Easybank.All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
